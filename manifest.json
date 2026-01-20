@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "AutoAuth",
+  "version": "0.1.0",
+  "permissions": ["webRequest", "webRequestAuthProvider"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "sw.js"
+  }
+}
