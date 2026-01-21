@@ -2,8 +2,12 @@
   "manifest_version": 3,
   "name": "AutoAuth",
   "version": "0.1.0",
-  "permissions": ["webRequest", "webRequestAuthProvider"],
+  "permissions": ["webRequest", "webRequestAuthProvider", "storage"],
   "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Open AutoAuth Options"
+  },
+  "options_page": "options.html",
   "background": {
     "service_worker": "sw.js"
   }
