@@ -7,7 +7,7 @@
   "action": {
     "default_title": "Open AutoAuth Options"
   },
-  "options_page": "options.html",
+  "options_page": "index.html",
   "background": {
     "service_worker": "sw.js"
   }
